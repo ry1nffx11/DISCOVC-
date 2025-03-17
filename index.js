@@ -3,7 +3,7 @@ require('events').EventEmitter.prototype._maxListeners = 50;
 const { Client } = require('discord.js-selfbot-v13');
 const { joinVoiceChannel } = require('@discordjs/voice');
 
-const channels = ['1348978440304328717'];
+const channels = ['1351220340101222542'];
 
 const checkAndJoin = async (client, channelId) => {
   try {
